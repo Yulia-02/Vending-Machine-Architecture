@@ -14,8 +14,8 @@ suppressMessage ENCEXT-2799
 ###################################################################
 # IMPORTANT - IMPORTANT
 # Change only these two lines each time to your top level cell names
-set init_verilog "twoP_FSM.vh"
-set init_top_cell "twoP_FSM"
+set init_verilog "vending_top.vh"
+set init_top_cell "Vending_FSM"
 ###################################################################
 ###################################################################
 #
