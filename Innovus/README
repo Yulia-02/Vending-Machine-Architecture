@@ -1,0 +1,59 @@
+README for Innovus and Magic
+
+Copy your output Verilog .vh from Design Compiler from the ../Synthesis folder.
+If you are in this folder, then  cp ../Synthesis/twoP_FSM.vh  twoP_FSM.vh
+
+Here it will be twoP_FSM.vh
+
+Edit the innovus.tcl script file.
+Make sure that the name of you verilog file and the top cell name are updated.
+
+Then use the "run" shell script to invoke innovus. That is just type
+
+run
+
+There may be several warnings concerning features not included in our cell library.
+These will be saved in a log file. Most can be ignored for our designs.
+If there is an error, it may be due to not updating your verilog files
+or the requested aggressive cell density 0.9 in the floorplan may be too high.
+
+Innovus will go through several stages to (1) load and initialize the design,
+(2) floorplan your design, (3) add power and ground rings, (4) place the design,
+(5) route power and ground, (6) add filler cells to rows, (7) detail signal route,
+(8) verify design, and (9) create the GDS layout mask file.
+More steps could be done for larger designs including timing optimization,
+clock tree routing, and also low power modes.
+
+After innovus completes, there will be some comments printed to the screen.
+You can then type
+
+win
+
+to see your layout. You can navigate and update you design with the
+innovus graphical interface. We used a script to organize the steps.
+You can then type exit to quit.
+
+
+We could also open the design in virtuoso for editing.
+However, for now, we will read and import the file into magic.
+This will be for irsim and spice simulation to verify the design.
+Start magic, but before loading the gds file, click in the layout window
+and type the long command
+
+: calma rescale no
+
+Then read the final.gds file from Innovus.
+
+Observe and expand the layout.
+
+Then :extract all
+:ext2sim -t!
+:ext2spice
+:writeall
+
+There may be an "extra" top level cell.
+You can quit and not save that if you have your twoP_FSM.mag cell in this example.
+
+Now you can run your irsim and hspice simulations to verifgy.
+
+JRC  updated 01/31/2023
