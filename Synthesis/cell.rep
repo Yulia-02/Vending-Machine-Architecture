@@ -1,0 +1,600 @@
+ 
+****************************************
+Report : cell
+Design : vending_top
+Version: U-2022.12-SP7
+Date   : Sun Apr 12 01:10:45 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        AND2X2          osu05_stdcells  288.000000
+U2                        AND2X2          osu05_stdcells  288.000000
+U3                        OR2X2           osu05_stdcells  288.000000
+U4                        AND2X2          osu05_stdcells  288.000000
+U5                        AND2X2          osu05_stdcells  288.000000
+U6                        AND2X2          osu05_stdcells  288.000000
+U7                        AND2X2          osu05_stdcells  288.000000
+U8                        AND2X2          osu05_stdcells  288.000000
+U9                        AND2X2          osu05_stdcells  288.000000
+U10                       AND2X2          osu05_stdcells  288.000000
+U11                       XOR2X1          osu05_stdcells  504.000000
+U12                       XOR2X1          osu05_stdcells  504.000000
+U13                       XNOR2X1         osu05_stdcells  504.000000
+U14                       XOR2X1          osu05_stdcells  504.000000
+U15                       XOR2X1          osu05_stdcells  504.000000
+U16                       XOR2X1          osu05_stdcells  504.000000
+U17                       XOR2X1          osu05_stdcells  504.000000
+U18                       XNOR2X1         osu05_stdcells  504.000000
+U19                       INVX2           osu05_stdcells  144.000000
+U20                       BUFX2           osu05_stdcells  216.000000
+U21                       BUFX2           osu05_stdcells  216.000000
+U22                       BUFX2           osu05_stdcells  216.000000
+U23                       INVX2           osu05_stdcells  144.000000
+U24                       INVX2           osu05_stdcells  144.000000
+U25                       INVX2           osu05_stdcells  144.000000
+U26                       INVX2           osu05_stdcells  144.000000
+U27                       INVX2           osu05_stdcells  144.000000
+U28                       INVX2           osu05_stdcells  144.000000
+U29                       INVX2           osu05_stdcells  144.000000
+U30                       INVX2           osu05_stdcells  144.000000
+U31                       INVX2           osu05_stdcells  144.000000
+U32                       OR2X1           osu05_stdcells  288.000000
+U33                       XNOR2X1         osu05_stdcells  504.000000
+U34                       XNOR2X1         osu05_stdcells  504.000000
+U35                       OR2X1           osu05_stdcells  288.000000
+U36                       XNOR2X1         osu05_stdcells  504.000000
+U37                       OR2X1           osu05_stdcells  288.000000
+U38                       OR2X1           osu05_stdcells  288.000000
+U39                       OR2X1           osu05_stdcells  288.000000
+U40                       OR2X1           osu05_stdcells  288.000000
+U41                       XNOR2X1         osu05_stdcells  504.000000
+U42                       OR2X1           osu05_stdcells  288.000000
+U43                       XNOR2X1         osu05_stdcells  504.000000
+U44                       OR2X1           osu05_stdcells  288.000000
+U45                       OR2X1           osu05_stdcells  288.000000
+U46                       XNOR2X1         osu05_stdcells  504.000000
+U47                       OR2X1           osu05_stdcells  288.000000
+U48                       XNOR2X1         osu05_stdcells  504.000000
+U49                       OR2X1           osu05_stdcells  288.000000
+U50                       XNOR2X1         osu05_stdcells  504.000000
+U51                       XNOR2X1         osu05_stdcells  504.000000
+U52                       OR2X1           osu05_stdcells  288.000000
+U53                       XNOR2X1         osu05_stdcells  504.000000
+U54                       OR2X1           osu05_stdcells  288.000000
+U55                       XNOR2X1         osu05_stdcells  504.000000
+U56                       OR2X1           osu05_stdcells  288.000000
+U57                       XNOR2X1         osu05_stdcells  504.000000
+U58                       XNOR2X1         osu05_stdcells  504.000000
+U59                       XOR2X1          osu05_stdcells  504.000000
+U60                       XOR2X1          osu05_stdcells  504.000000
+U61                       XOR2X1          osu05_stdcells  504.000000
+U62                       XOR2X1          osu05_stdcells  504.000000
+U63                       INVX2           osu05_stdcells  144.000000
+U64                       INVX2           osu05_stdcells  144.000000
+U65                       INVX2           osu05_stdcells  144.000000
+U66                       INVX2           osu05_stdcells  144.000000
+U67                       INVX2           osu05_stdcells  144.000000
+U68                       INVX2           osu05_stdcells  144.000000
+U69                       INVX2           osu05_stdcells  144.000000
+U70                       INVX2           osu05_stdcells  144.000000
+U71                       INVX2           osu05_stdcells  144.000000
+U72                       INVX2           osu05_stdcells  144.000000
+U73                       INVX2           osu05_stdcells  144.000000
+U74                       INVX2           osu05_stdcells  144.000000
+U75                       INVX2           osu05_stdcells  144.000000
+U76                       INVX2           osu05_stdcells  144.000000
+U77                       INVX2           osu05_stdcells  144.000000
+U78                       INVX2           osu05_stdcells  144.000000
+U79                       INVX2           osu05_stdcells  144.000000
+U80                       INVX2           osu05_stdcells  144.000000
+U81                       INVX2           osu05_stdcells  144.000000
+U82                       INVX2           osu05_stdcells  144.000000
+U83                       INVX2           osu05_stdcells  144.000000
+U84                       INVX2           osu05_stdcells  144.000000
+U85                       INVX2           osu05_stdcells  144.000000
+U86                       INVX2           osu05_stdcells  144.000000
+U87                       INVX2           osu05_stdcells  144.000000
+U88                       INVX2           osu05_stdcells  144.000000
+U89                       INVX2           osu05_stdcells  144.000000
+U90                       INVX2           osu05_stdcells  144.000000
+U91                       INVX2           osu05_stdcells  144.000000
+U92                       INVX2           osu05_stdcells  144.000000
+U93                       INVX2           osu05_stdcells  144.000000
+U94                       INVX2           osu05_stdcells  144.000000
+U95                       INVX2           osu05_stdcells  144.000000
+U96                       INVX2           osu05_stdcells  144.000000
+U97                       INVX2           osu05_stdcells  144.000000
+U98                       INVX2           osu05_stdcells  144.000000
+U99                       INVX2           osu05_stdcells  144.000000
+U100                      INVX2           osu05_stdcells  144.000000
+U101                      INVX2           osu05_stdcells  144.000000
+U102                      INVX2           osu05_stdcells  144.000000
+U103                      INVX2           osu05_stdcells  144.000000
+U104                      INVX2           osu05_stdcells  144.000000
+U105                      INVX2           osu05_stdcells  144.000000
+U106                      INVX2           osu05_stdcells  144.000000
+U107                      INVX2           osu05_stdcells  144.000000
+U108                      INVX2           osu05_stdcells  144.000000
+U109                      INVX2           osu05_stdcells  144.000000
+U110                      INVX2           osu05_stdcells  144.000000
+U111                      INVX2           osu05_stdcells  144.000000
+U112                      INVX2           osu05_stdcells  144.000000
+U113                      INVX2           osu05_stdcells  144.000000
+U114                      INVX2           osu05_stdcells  144.000000
+U115                      INVX2           osu05_stdcells  144.000000
+U116                      INVX2           osu05_stdcells  144.000000
+U117                      INVX2           osu05_stdcells  144.000000
+U118                      INVX2           osu05_stdcells  144.000000
+U119                      INVX2           osu05_stdcells  144.000000
+U120                      INVX2           osu05_stdcells  144.000000
+U121                      INVX2           osu05_stdcells  144.000000
+U122                      INVX2           osu05_stdcells  144.000000
+U123                      INVX2           osu05_stdcells  144.000000
+U124                      INVX2           osu05_stdcells  144.000000
+U125                      INVX2           osu05_stdcells  144.000000
+U126                      INVX2           osu05_stdcells  144.000000
+U127                      INVX2           osu05_stdcells  144.000000
+U128                      INVX2           osu05_stdcells  144.000000
+U129                      INVX2           osu05_stdcells  144.000000
+U130                      INVX2           osu05_stdcells  144.000000
+U131                      INVX2           osu05_stdcells  144.000000
+U132                      INVX2           osu05_stdcells  144.000000
+U133                      INVX2           osu05_stdcells  144.000000
+U134                      INVX2           osu05_stdcells  144.000000
+U135                      INVX2           osu05_stdcells  144.000000
+U136                      INVX2           osu05_stdcells  144.000000
+U137                      INVX2           osu05_stdcells  144.000000
+U138                      INVX2           osu05_stdcells  144.000000
+U139                      INVX2           osu05_stdcells  144.000000
+U140                      INVX2           osu05_stdcells  144.000000
+U141                      INVX2           osu05_stdcells  144.000000
+U142                      INVX2           osu05_stdcells  144.000000
+U143                      INVX2           osu05_stdcells  144.000000
+U144                      INVX2           osu05_stdcells  144.000000
+U145                      INVX2           osu05_stdcells  144.000000
+U146                      INVX2           osu05_stdcells  144.000000
+U147                      INVX2           osu05_stdcells  144.000000
+U148                      INVX2           osu05_stdcells  144.000000
+U149                      INVX2           osu05_stdcells  144.000000
+U150                      INVX2           osu05_stdcells  144.000000
+U151                      INVX2           osu05_stdcells  144.000000
+U152                      INVX2           osu05_stdcells  144.000000
+U153                      INVX2           osu05_stdcells  144.000000
+U154                      INVX2           osu05_stdcells  144.000000
+U155                      INVX2           osu05_stdcells  144.000000
+U156                      INVX2           osu05_stdcells  144.000000
+U157                      INVX2           osu05_stdcells  144.000000
+U158                      NAND2X1         osu05_stdcells  216.000000
+U159                      OAI21X1         osu05_stdcells  207.000000
+U160                      NOR2X1          osu05_stdcells  216.000000
+U161                      AOI21X1         osu05_stdcells  288.000000
+U162                      NAND2X1         osu05_stdcells  216.000000
+U163                      OAI21X1         osu05_stdcells  207.000000
+U164                      XNOR2X1         osu05_stdcells  504.000000
+U165                      NOR2X1          osu05_stdcells  216.000000
+U166                      XOR2X1          osu05_stdcells  504.000000
+U167                      NAND2X1         osu05_stdcells  216.000000
+U168                      OAI21X1         osu05_stdcells  207.000000
+U169                      NOR2X1          osu05_stdcells  216.000000
+U170                      AOI21X1         osu05_stdcells  288.000000
+U171                      NAND2X1         osu05_stdcells  216.000000
+U172                      OAI21X1         osu05_stdcells  207.000000
+U173                      XNOR2X1         osu05_stdcells  504.000000
+U174                      NOR2X1          osu05_stdcells  216.000000
+U175                      XOR2X1          osu05_stdcells  504.000000
+U176                      OAI21X1         osu05_stdcells  207.000000
+U177                      NOR2X1          osu05_stdcells  216.000000
+U178                      NAND3X1         osu05_stdcells  324.000000
+U179                      OAI21X1         osu05_stdcells  207.000000
+U180                      NOR2X1          osu05_stdcells  216.000000
+U181                      NAND3X1         osu05_stdcells  324.000000
+U182                      NOR2X1          osu05_stdcells  216.000000
+U183                      AOI22X1         osu05_stdcells  360.000000
+U184                      OAI21X1         osu05_stdcells  207.000000
+U185                      NAND2X1         osu05_stdcells  216.000000
+U186                      NAND3X1         osu05_stdcells  324.000000
+U187                      OAI21X1         osu05_stdcells  207.000000
+U188                      AOI22X1         osu05_stdcells  360.000000
+U189                      OAI21X1         osu05_stdcells  207.000000
+U190                      NOR2X1          osu05_stdcells  216.000000
+U191                      OAI21X1         osu05_stdcells  207.000000
+U192                      OAI21X1         osu05_stdcells  207.000000
+U193                      OAI22X1         osu05_stdcells  360.000000
+U194                      OAI22X1         osu05_stdcells  360.000000
+U195                      AOI21X1         osu05_stdcells  288.000000
+U196                      NAND2X1         osu05_stdcells  216.000000
+U197                      AOI22X1         osu05_stdcells  360.000000
+U198                      NOR2X1          osu05_stdcells  216.000000
+U199                      NAND2X1         osu05_stdcells  216.000000
+U200                      NOR2X1          osu05_stdcells  216.000000
+u_datapath/U41            AND2X2          osu05_stdcells  288.000000
+u_datapath/U42            AND2X2          osu05_stdcells  288.000000
+u_datapath/U44            AND2X2          osu05_stdcells  288.000000
+u_datapath/U45            AND2X2          osu05_stdcells  288.000000
+u_datapath/U46            AND2X2          osu05_stdcells  288.000000
+u_datapath/U47            AND2X2          osu05_stdcells  288.000000
+u_datapath/U48            AND2X2          osu05_stdcells  288.000000
+u_datapath/U127           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U133           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U134           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U135           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U136           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U137           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U138           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U139           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U140           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U141           XNOR2X1         osu05_stdcells  504.000000
+u_datapath/U142           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U143           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U144           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U145           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U146           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U147           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U148           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U149           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U150           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U151           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U152           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U153           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U154           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U155           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U156           OAI22X1         osu05_stdcells  360.000000
+u_datapath/U157           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U158           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U159           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U160           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U161           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U162           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U163           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U164           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U165           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U166           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U167           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U168           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U169           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U170           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U171           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U172           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U173           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U174           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U175           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U176           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U177           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U178           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U179           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U180           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U181           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U182           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U183           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U184           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U185           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U186           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U187           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U188           AOI21X1         osu05_stdcells  288.000000
+u_datapath/U189           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U190           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U191           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U192           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U193           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U194           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U195           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U196           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U197           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U198           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U199           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U200           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U201           OR2X1           osu05_stdcells  288.000000
+u_datapath/U202           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U203           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U204           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U205           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U206           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U207           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U208           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U209           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U210           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U211           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U212           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U213           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U214           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U215           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U216           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U217           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U218           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U219           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U220           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U221           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U222           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U223           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U224           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U225           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U226           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U227           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U228           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U229           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U230           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U231           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U232           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U233           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U234           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U235           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U236           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U237           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U238           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U239           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U240           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U241           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U243           OAI21X1         osu05_stdcells  207.000000
+u_datapath/U244           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U246           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U247           NOR3X1          osu05_stdcells  576.000000
+u_datapath/U248           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U249           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U250           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U251           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U252           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U253           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U254           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U255           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U256           NAND2X1         osu05_stdcells  216.000000
+u_datapath/U257           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U258           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U259           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U260           AOI22X1         osu05_stdcells  360.000000
+u_datapath/U261           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U262           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U263           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U264           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U265           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U266           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U267           AOI21X1         osu05_stdcells  288.000000
+u_datapath/U268           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U269           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U270           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U271           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U272           NAND3X1         osu05_stdcells  324.000000
+u_datapath/U273           NOR2X1          osu05_stdcells  216.000000
+u_datapath/U274           NOR2X1          osu05_stdcells  216.000000
+u_datapath/add_94/U1_1    FAX1            osu05_stdcells  1080.000000
+                                                                    mo, r
+u_datapath/add_94/U1_2    FAX1            osu05_stdcells  1080.000000
+                                                                    mo, r
+u_datapath/balance_reg[0] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/balance_reg[1] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/balance_reg[2] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/balance_reg[3] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/balance_reg[4] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/balance_reg[5] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_bank_reg[0]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_bank_reg[1]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_bank_reg[2]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_bank_reg[3]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_bank_reg[4]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_bank_reg[5]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_rem_reg[0]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_rem_reg[1]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_rem_reg[2]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_rem_reg[3]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_rem_reg[4]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/change_rem_reg[5]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[0][0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[0][1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[0][2]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[0][3]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[1][0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[1][1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[1][2]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[1][3]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[2][0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[2][1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[2][2]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[2][3]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[3][0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[3][1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[3][2]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/inv_reg[3][3]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/sel_reg_reg[0] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/sel_reg_reg[1] DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_datapath/sub_103/U2_2   FAX1            osu05_stdcells  1080.000000
+                                                                    mo, r
+u_datapath/sub_103/U2_3   FAX1            osu05_stdcells  1080.000000
+                                                                    mo, r
+u_fsm/U3                  AND2X2          osu05_stdcells  288.000000
+u_fsm/U4                  AND2X2          osu05_stdcells  288.000000
+u_fsm/U5                  AND2X2          osu05_stdcells  288.000000
+u_fsm/U6                  AND2X2          osu05_stdcells  288.000000
+u_fsm/U40                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U41                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U42                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U43                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U44                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U45                 OAI22X1         osu05_stdcells  360.000000
+u_fsm/U46                 AOI21X1         osu05_stdcells  288.000000
+u_fsm/U47                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U48                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U49                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U50                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U51                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U52                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U53                 OR2X1           osu05_stdcells  288.000000
+u_fsm/U54                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U55                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U56                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U57                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U58                 OR2X1           osu05_stdcells  288.000000
+u_fsm/U59                 AOI21X1         osu05_stdcells  288.000000
+u_fsm/U60                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U61                 OAI22X1         osu05_stdcells  360.000000
+u_fsm/U62                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U63                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U64                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U65                 AOI22X1         osu05_stdcells  360.000000
+u_fsm/U66                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U67                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U68                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U69                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U70                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U71                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U72                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U73                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U74                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U75                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U76                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U77                 OR2X1           osu05_stdcells  288.000000
+u_fsm/U78                 AOI21X1         osu05_stdcells  288.000000
+u_fsm/U79                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U80                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U81                 NOR3X1          osu05_stdcells  576.000000
+u_fsm/U82                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U83                 OR2X1           osu05_stdcells  288.000000
+u_fsm/U84                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U85                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U86                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U87                 OAI22X1         osu05_stdcells  360.000000
+u_fsm/U88                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U89                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U90                 OAI21X1         osu05_stdcells  207.000000
+u_fsm/U91                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U92                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U93                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U94                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U95                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U96                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U97                 NAND2X1         osu05_stdcells  216.000000
+u_fsm/U98                 NAND3X1         osu05_stdcells  324.000000
+u_fsm/U99                 NOR2X1          osu05_stdcells  216.000000
+u_fsm/U100                OR2X1           osu05_stdcells  288.000000
+u_fsm/U101                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U102                OAI21X1         osu05_stdcells  207.000000
+u_fsm/U103                NAND2X1         osu05_stdcells  216.000000
+u_fsm/U104                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U105                OAI21X1         osu05_stdcells  207.000000
+u_fsm/U106                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U107                NAND3X1         osu05_stdcells  324.000000
+u_fsm/U108                OR2X1           osu05_stdcells  288.000000
+u_fsm/U109                NAND3X1         osu05_stdcells  324.000000
+u_fsm/U110                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U111                NAND2X1         osu05_stdcells  216.000000
+u_fsm/U112                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U113                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U114                NOR2X1          osu05_stdcells  216.000000
+u_fsm/U115                NAND2X1         osu05_stdcells  216.000000
+u_fsm/U116                NOR2X1          osu05_stdcells  216.000000
+u_fsm/change_pulse_reg    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/change_start_pulse_reg
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/change_type_reg[0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/change_type_reg[1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/chg_denom_reg[0]    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/chg_denom_reg[1]    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/chg_done_pulse_reg  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/chg_sub_pulse_reg   DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/cstate_reg[0]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/cstate_reg[1]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/cstate_reg[2]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/dispense_id_reg[0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/dispense_id_reg[1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/dispense_valid_reg  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/do_add_coin_reg     DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/do_clear_balance_reg
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/do_compute_change_reg
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/do_dec_inv_reg      DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/do_latch_sel_reg    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/do_load_rem_from_bal_reg
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/err_code_reg[0]     DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/err_code_reg[1]     DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/state_reg[0]        DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/state_reg[1]        DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/state_reg[2]        DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/status_code_reg[0]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+u_fsm/status_code_reg[1]  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+--------------------------------------------------------------------------------
+Total 496 cells                                           166905.000000
+1
