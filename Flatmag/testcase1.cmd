@@ -1,0 +1,19 @@
+ana p_clka p_clkb p_rst_n p_coin_valid p_coin_type\[1\] p_coin_type\[0\] p_sel_valid p_sel_id\[1\] p_sel_id\[0\] p_cancel p_dispense_valid p_dispense_id\[1\] p_change_pulse p_change_type\[1\] p_change_type\[0\] p_status_code\[1\] p_status_code\[0\] p_error_code\[1\] 
+
+V p_clka              0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0
+V p_clkb              0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1
+
+V p_rst_n             0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+V p_coin_valid        0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+V p_coin_type\[1\]    0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+V p_coin_type\[0\]    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+V p_sel_valid         0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
+V p_sel_id\[1\]       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+V p_sel_id\[0\]       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+V p_cancel            0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+clock Vdd 1
+R
